@@ -20,3 +20,17 @@ O processo de ETL é realizado em duas etapas principais:
 2. **Transformação:** Após a extração, os dados são selecionados e transformados para um formato mais adequado. O objetivo é organizar os dados em uma tabela contendo as colunas *year*, *population*, *city* e *state*.
 
 3. **Carga:** Os dados transformados são então salvos em um arquivo CSV para análises posteriores.
+
+## Análises Realizadas
+
+1.  Análise de Crescimento Populacional:
+* Calculo de taxa de crescimento do Brasil
+* Cálculo de taxa de crescimento por UF.
+* Identificar as cidades com maior e menor crescimento em cada período censitário.
+* Visulização do crescimento populacional em um gráfico de linhas ou barras.
+
+## Resultados Principais
+
+## Contato
+
+João Fenerich - jlfenerich@gmail.com
