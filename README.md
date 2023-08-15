@@ -1,12 +1,26 @@
-# Análise do Censo Brasileiro | Fonte: IBGE
+O README.md está bem escrito e oferece uma visão clara do que o repositório contém. Contudo, aqui estão algumas sugestões para melhorar a clareza e a formatação:
 
-> ## 'Este repositório está em construção.'
+---
 
+# Análise do Censo Brasileiro 
+### Fonte: IBGE
 
+> 🚧 **Este repositório está em construção.**
 
-O objetivo desse repósitório é buscar as informações do Censo via API do SIDRA, até o momento consegui os dados dos Censos desde 1991.
+## Objetivo
 
-## ETL
+O principal propósito deste repositório é buscar e analisar informações do Censo Brasileiro por meio da API do SIDRA. Até o momento, os dados dos censos desde 1991 foram coletados e processados.
 
-A extração dos é realizada com notebooks __GetData_Sidra_1991_2000_2010.ipynb__ e __GetData_SIDRA_2022.ipynb__ que requisitam via API do sistema SIDRA (IBGE) os dados, a segunda etapa é a seleção dos dados relevantes e posterimente a transformação para o formato em que os dados sejam dispostos em uma tabela com *year*, *population*, *city*, *state*; e, os salvam num arquivo csv.
+## ETL (Extração, Transformação e Carga)
 
+O processo de ETL é realizado em duas etapas principais:
+
+1. **Extração:** Esta etapa é executada usando os notebooks:
+   - `GetData_Sidra_1991_2000_2010.ipynb`
+   - `GetData_SIDRA_2022.ipynb`
+   
+   Os notebooks são responsáveis por fazer requisições à API do sistema SIDRA (IBGE) para coletar os dados do censo.
+
+2. **Transformação:** Após a extração, os dados são selecionados e transformados para um formato mais adequado. O objetivo é organizar os dados em uma tabela contendo as colunas *year*, *population*, *city* e *state*.
+
+3. **Carga:** Os dados transformados são então salvos em um arquivo CSV para análises posteriores.
