@@ -1,7 +1,3 @@
-O README.md está bem escrito e oferece uma visão clara do que o repositório contém. Contudo, aqui estão algumas sugestões para melhorar a clareza e a formatação:
-
----
-
 # Análise do Censo Brasileiro 
 ### Fonte: IBGE
 
