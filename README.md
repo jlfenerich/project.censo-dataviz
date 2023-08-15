@@ -5,15 +5,15 @@
 
 ## Objetivo
 
-O principal propósito deste repositório é buscar e analisar informações do Censo Brasileiro por meio da API do SIDRA. Até o momento, os dados dos censos desde 1991 foram coletados e processados.
+O principal propósito deste repositório é buscar e analisar informações do Censo Brasileiro por meio da API do [SIDRA](https://sidra.ibge.gov.br), sistema [IBGE](https://ibge.gov.br) de Recuperação Automática. Até o momento, os dados dos censos desde 1991 foram coletados e processados.
 
 ## ETL (Extração, Transformação e Carga)
 
 O processo de ETL é realizado em duas etapas principais:
 
 1. **Extração:** Esta etapa é executada usando os notebooks:
-   - `GetData_Sidra_1991_2000_2010.ipynb`
-   - `GetData_SIDRA_2022.ipynb`
+   - 📗 `GetData_Sidra_1991_2000_2010.ipynb`
+   - 📗 `GetData_SIDRA_2022.ipynb`
    
    Os notebooks são responsáveis por fazer requisições à API do sistema SIDRA (IBGE) para coletar os dados do censo.
 
@@ -23,11 +23,13 @@ O processo de ETL é realizado em duas etapas principais:
 
 ## Análises Realizadas
 
-1.  Análise de Crescimento Populacional:
+### 1.  Análise de Crescimento Populacional:
 * Calculo de taxa de crescimento do Brasil
 * Cálculo de taxa de crescimento por UF.
 * Identificar as cidades com maior e menor crescimento em cada período censitário.
 * Visulização do crescimento populacional em um gráfico de linhas ou barras.
+
+📗 notebook: `analysis1_population_growth.ipynb`
 
 ## Resultados Principais
 
