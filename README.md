@@ -24,7 +24,7 @@ O processo de ETL é realizado em duas etapas principais:
 ## Análises Realizadas
 
 ### 1.  Análise de Crescimento Populacional:
-* Calculo de taxa de crescimento do Brasil
+* Calculo de taxa de crescimento do Brasil de 1991 até 2022.
 * Cálculo de taxa de crescimento por UF.
 * Identificar as cidades com maior e menor crescimento em cada período censitário.
 * Visulização do crescimento populacional em um gráfico de linhas ou barras.
